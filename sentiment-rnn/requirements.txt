@@ -19,7 +19,7 @@ mistune==0.7.4
 nbconvert==5.1.1
 nbformat==4.3.0
 notebook==4.4.1
-numpy==1.12.1
+numpy==1.22.2
 packaging==16.8
 pandocfilters==1.4.1
 pexpect==4.2.1
@@ -42,3 +42,4 @@ traitlets==4.3.2
 wcwidth==0.1.7
 webencodings==0.5
 widgetsnbextension==2.0.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
